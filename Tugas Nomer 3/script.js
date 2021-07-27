@@ -13,7 +13,7 @@ function pilih(buah){
         if(buah == "apel"){
             swal("ANDA TELAH MEMBELI APEL", "Anda Bisa melihatnya di keranjang");
         } else if (buah == "anggur"){
-            swal("ANDA TELAH MEMBELI ANGGUR", "Anda Bisa melihatnya di keranjang");
+            swal("MAAF STOCK SEDANG TIDAK ADA", "Anda bisa menghubungi suplier");
         } else if (buah == "jeruk"){
             swal("ANDA TELAH MEMBELI JERUK", "Anda Bisa melihatnya di keranjang");
         }
