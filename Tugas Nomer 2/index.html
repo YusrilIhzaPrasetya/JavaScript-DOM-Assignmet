@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Contact Us if you have a problem</h1>
+            <p>Kami sangat senang apabila dapat membantumu untuk menyelesaikan suatu permasalahan yang sedang kamu hadapi sekarang ini. biarkan kami mengetahui permasalahan mu, kami akan menjaga privasi dan data dirimu dengan jaminan keamanan 100%</p>
+        </div>
+        <div class="contact-us">
+            <form> 
+                <input type="text" placeholder="Nama..." id="inputName" class="field" required>
+                <input type="email" placeholder="Email..." id="inputEmail" class="field" required>
+                <textarea name="pesan" rows="7" cols="45" placeholder="Tulis pesan anda disini" id="pesan" class="fiel" required></textarea> <br>
+
+            </form>
+
+            <div class="tombol">
+                <button class="field" class="btn" type="button" value="Kirim" id="btn">KIRIM</button>
+
+                <button onclick="javascript:eraseText();" class="field" class="btn" type="button" value="Kirim" id="btn">RESET</button>
+            </div>
+                
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

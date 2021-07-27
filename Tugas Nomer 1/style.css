@@ -1,0 +1,88 @@
+.halamanLogin{
+    background-color: rgb(224, 224, 224);
+    margin: 120px 480px;
+    padding: 50px 0px;
+    border-radius: 20px;
+
+}
+
+.isian{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.anakIsian{
+    padding: 10px 48px;
+    border: 2.5px solid;
+    border-color: lightlightsalmon;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    color: lightsalmon;
+    text-decoration: none;
+
+}
+
+input::placeholder{
+    color: black;
+    opacity: 0.3;
+    text-align: center;
+}
+
+.eula{
+    display: flex;
+    justify-content: center;
+}
+
+.eula p {
+    max-width: 200px;
+    margin-right: 20px;
+    font-size: 12px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.cek{
+    margin: 15px 20px;
+}
+
+.tombolIsian{
+    margin: 5px 0px;
+    padding: 12px 105px;
+    max-width: 300px;
+    border: none;
+    background-color: lightsalmon;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*Componen Styling Untuk SweetAlert*/
+
+.swal-modal{
+    padding: 50px 75px;
+}
+
+.swal-title{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.swal-text{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.swal-button{
+    background-color: lightsalmon;
+}
+
+.swal-footer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#judul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teks{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: lightsalmon;
+}
+
+p{
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 2px;
+}
+
+#pilihan{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 10%;
+}
+
+.pilih{
+    margin: 0px 20px;
+    padding: 60px 40px 120px 40px;
+    background-color: transparent ;
+    color: white;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: 500px;
+    cursor: pointer;
+}
+
+.pilih button{
+    padding: 10px;
+    color: salmon;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.pilih button a{
+    text-decoration: none;
+    color:salmon ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.atasan{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bawahan{
+    margin-top:15px ;
+    font-family: 'Didact Gothic', sans-serif;
+    max-width: 200px;
+    text-shadow: 100%;
+}
+
